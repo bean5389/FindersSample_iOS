@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BaseNavigationViewController.h
 //  FindersSample
 //
 //  Created by 박 형빈 on 20/01/2019.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface BaseNavigationController : UINavigationController
 
 @end
 
+NS_ASSUME_NONNULL_END
